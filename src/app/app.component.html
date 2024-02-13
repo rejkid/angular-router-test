@@ -1,0 +1,25 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!!
+  </h1>
+  <nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-1">
+          <a routerLink="home" routerLinkActive="active"><button type="button" class="btn btn-primary">
+              Home</button></a>
+        </div>
+        <div class="col-1">
+          <a routerLink="about"><button type="button" class="btn btn-primary">
+              About</button></a>
+        </div>
+
+        <div class="col-1">
+          <a routerLink="dashboard"><button type="button" class="btn btn-primary">
+              Dashboard</button></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
